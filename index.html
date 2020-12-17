@@ -334,12 +334,46 @@
           </li>
         </ul>
     </div>
+
+    <div class="subscribe">
+    <form name="subscribe">
+      <b class="subscribe-title">Подпишитесь на рассылку</b>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email">
+      <button type="button">Подписаться</button>
+    </form>
+    </div>
     </div>
   </footer>
 
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <button class="close-btn" data-modal-close>&#10006</button>
+      <form >
+        <b>Оставьте свои данные, мы вам перезвоним</b>
+        <label for="name">Имя</label>
+        <input id="name" type="text">
+
+        <label for="phone">Телефон</label>
+        <input id="" type="tel" name="telephone">
+
+        <label for="email-1">Почта</label>
+        <input type="email" name="email" id="email-1">
+
+        <label for="textarea">Комментарий</label>
+        <textarea
+          name="comment"
+          id="textarea"
+          rows="10"
+          placeholder="Введите текст">
+        </textarea>
+
+        <input id="accept" type="checkbox" name="accept" value="text">
+        <label for="accept">Соглашаюсь с рассылкой и принимаю
+          <a href="">Условия договора</a>
+        </label>
+        <button type="button">Отправить</button>
+      </form>
     </div>
   </div>
   <script src="./js/modal.js"></script>
